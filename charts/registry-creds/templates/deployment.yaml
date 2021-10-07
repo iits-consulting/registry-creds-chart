@@ -15,6 +15,8 @@ spec:
       labels:
         control-plane: {{.Release.Name}}-controller
     spec:
+      imagePullSecrets:
+        - name: dockerhub-config-json
       containers:
         - args:
             - --enable-leader-election
