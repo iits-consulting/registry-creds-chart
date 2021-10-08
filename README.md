@@ -1,3 +1,5 @@
+This project is based on https://github.com/alexellis/registry-creds
+
 ## Usage
 
 Create dockerconfigjson
