@@ -2,17 +2,17 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    control-plane: {{.Release.Name}}-controller
-  name: {{.Release.Name}}-{{.Release.Name}}-controller
+    control-plane: {{.Values.name}}-controller
+  name: {{.Values.name}}-controller
 spec:
   replicas: {{.Values.replicaCount}}
   selector:
     matchLabels:
-      control-plane: {{.Release.Name}}-controller
+      control-plane: {{.Values.name}}-controller
   template:
     metadata:
       labels:
-        control-plane: {{.Release.Name}}-controller
+        control-plane: {{.Values.name}}-controller
     spec:
       imagePullSecrets:
         - name: dockerhub-config-json
