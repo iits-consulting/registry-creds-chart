@@ -4,7 +4,6 @@ metadata:
   labels:
     control-plane: {{.Release.Name}}-controller
   name: {{.Release.Name}}-{{.Release.Name}}-controller
-  namespace: {{.Release.Name}}
 spec:
   replicas: {{.Values.replicaCount}}
   selector:
