@@ -4,11 +4,11 @@ image:
   tag: "0.2.6"
   pullPolicy: IfNotPresent
 resources:
-    limits:
-      cpu: 100m
-      memory: 64Mi
-    requests:
-      cpu: 100m
-      memory: 45Mi
+  limits:
+    cpu: 300m
+    memory: 256Mi
+  requests:
+    cpu: 100m
+    memory: 45Mi
 replicaCount: 1
 dockerConfigJsonBase64Encoded: "eyJhdXRo...REPLACE_ME"
