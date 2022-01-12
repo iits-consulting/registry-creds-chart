@@ -1,0 +1,9 @@
+{{if .Values.defaultClusterPullSecret.enabled}}
+apiVersion: v1
+kind: Secret
+type: kubernetes.io/dockerconfigjson
+metadata:
+  name: dockerhub-config-json
+data:
+  .dockerconfigjson: {{.Values.defaultClusterPullSecret.dockerConfigJsonBase64Encoded}}
+{{end}}

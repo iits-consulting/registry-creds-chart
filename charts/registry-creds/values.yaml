@@ -11,4 +11,6 @@ resources:
     cpu: 100m
     memory: 45Mi
 replicaCount: 1
-dockerConfigJsonBase64Encoded: "eyJhdXRo...REPLACE_ME"
+defaultClusterPullSecret:
+  enabled: true
+  dockerConfigJsonBase64Encoded: "eyJhdXRo...REPLACE_ME"
