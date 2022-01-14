@@ -1,7 +1,7 @@
 name: "registry-creds"
 image:
   repository: "ghcr.io/alexellis/registry-creds"
-  tag: "0.2.6"
+  tag: "latest"
   pullPolicy: IfNotPresent
 resources:
   limits:
