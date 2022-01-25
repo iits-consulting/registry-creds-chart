@@ -5,7 +5,7 @@ This project is based on https://github.com/alexellis/registry-creds
 Create dockerconfigjson
 
 ```shell
-kubectl create secret docker-registry regcred --docker-server=https://index.docker.io/v1/ --docker-username=victor.getz@iits-consulting.de --docker-password=my-password --docker-email=victor.getz@iits-consulting.de --dry-run=true -o yaml
+kubectl create secret docker-registry regcred --docker-server=https://index.docker.io/v1/ --docker-username=victor.getz@iits-consulting.de --docker-password=my-password --docker-email=victor.getz@iits-consulting.de --dry-run=client -o yaml
 ```
 
 Output looks like this then
