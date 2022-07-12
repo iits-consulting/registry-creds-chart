@@ -2,6 +2,14 @@ apiVersion: v1
 entries:
   registry-creds:
   - apiVersion: v2
+    created: "2022-07-12T14:32:40.422916406Z"
+    description: registry-creds
+    digest: 2bebb5b01a2e75f97fe0dde8bef032f3370bf55c423e91ea39dbf83a00f3d3be
+    name: registry-creds
+    urls:
+    - https://github.com/iits-consulting/registry-creds-chart/releases/download/registry-creds-1.1.2/registry-creds-1.1.2.tgz
+    version: 1.1.2
+  - apiVersion: v2
     created: "2022-07-12T14:21:03.799462002Z"
     description: registry-creds
     digest: 40e560b01f833f40e60ca55bbdcd8a1cf6b55ed0a0bb1b20ba51cb5a8554f53d
@@ -73,4 +81,4 @@ entries:
     urls:
     - https://github.com/iits-consulting/registry-creds-chart/releases/download/registry-creds-1.0.0/registry-creds-1.0.0.tgz
     version: 1.0.0
-generated: "2022-07-12T14:21:03.799510405Z"
+generated: "2022-07-12T14:32:40.422984809Z"
