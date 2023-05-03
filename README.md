@@ -1,3 +1,6 @@
+
+#DEPRECATED moved to https://github.com/iits-consulting/charts/tree/main/charts/registry-creds
+
 This project is based on https://github.com/alexellis/registry-creds
 
 ## Usage
